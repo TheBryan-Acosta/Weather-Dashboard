@@ -4,12 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
 
+    <div class="container-fluid">
+            
+        <!-- Weather Dashboard Topbar-->
+        <div class="topbar row mb-3">
+            <h1>Weather Dashboard</h1>
+        </div>
+        
+        <!-- main content -->
+        <main class="row">
+            <!-- search column -->
+            <div class="search col-12 col-md-3">
+                <!-- search -->
+                <h3>Search for a City:</h3>
+                <form>
+                    <input placeholder="San Diego" id="cityname" type="text" class="form-input col-12">
+                    <button type="submit" class="btn searchbtn col-12">Search</button>
+                </form>
+                <hr>
+        
+                <!-- previous searches-->
+                <div id="prevSearch">
+                    <button type="pastsearch" class="btn pastbtn col-12">round rock</button>
+                    <button type="pastsearch" class="btn pastbtn col-12">round rock</button>
+                </div>
+        
+            </div>
+        
+            <!-- content display -->
+            <div class="content col-12 col-md-9">
+                <div class="currfore" style="border: solid;">
+                    <!-- current forecast-->
+                    <ul>
+                        <h3 id="cityHeader">Showing weather for: </h3>
+                        <li>Temp:</li>
+                        <li>Wind:</li>
+                        <li>Humidity:</li>
+                        <li>UV Index:</li>
+                    </ul>
+                </div>
+        
+                <!-- 5 day forecast-->
+                <h4>Five day forecast</h3>
+                    <div class="row justify-content-center justify-content-lg-between pr-md-4">
+                        <div class="forebox col-11 col-lg-2">
+                            <h4>12/12/2001</h4>
+                            <p>Temp:</p>
+                            <p>Wind:</p>
+                            <p>Humidity:</p>
+                            <p>UV Index:</p>
+                        </div>
+                        <div class="forebox col-11 col-lg-2"></div>
+                        <div class="forebox col-11 col-lg-2"></div>
+                        <div class="forebox col-11 col-lg-2"></div>
+                        <div class="forebox col-11 col-lg-2"></div>
+                    </div>
+            </div>
+        </main>
+    </div>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

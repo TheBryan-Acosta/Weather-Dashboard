@@ -1,0 +1,91 @@
+.topbar {
+  background: rgb(73, 109, 190);
+  background: linear-gradient(
+    90deg,
+    rgba(73, 109, 190, 1) 0%,
+    rgba(3, 3, 61, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.searchbtn {
+  background: rgb(109, 160, 227);
+  color: white;
+  margin-top: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.searchbtn:hover {
+  background: rgb(124, 175, 241);
+  color: white;
+}
+
+.pastbtn {
+  background: rgb(183, 183, 183);
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.pastbtn:hover {
+  background: rgb(204, 204, 204);
+}
+
+.form-input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.forebox {
+  min-height: 150px;
+  background: rgb(56, 70, 89);
+  box-shadow: 7px 5px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.forebox h4,
+p {
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+  .forebox h4,
+  p {
+    font-size: small;
+  }
+}
