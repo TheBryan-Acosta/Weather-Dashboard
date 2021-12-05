@@ -20,6 +20,10 @@ Js libraries used were MomentJs for dates and times, and jquery.
 
 ## **Examples**
 
+
+https://user-images.githubusercontent.com/82281061/144735740-30681dd3-a535-4e35-ab8d-4b483e2c0716.mp4
+
+
 ## **Installation**
 
 Developed with HTML, CSS, js through Visual Studio Code.
