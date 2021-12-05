@@ -85,7 +85,7 @@ function displayCurrentWeatherData(weatherData){
 
     var cityNameEl = document.querySelector('#curC');
     var Image = document.createElement('img');
-    Image.setAttribute("src", 'http://openweathermap.org/img/wn/'+ weatherData.current.weather[0].icon + '.png');
+    Image.setAttribute("src", 'https://openweathermap.org/img/wn/'+ weatherData.current.weather[0].icon + '.png');
     cityNameEl.appendChild(Image);
 
     var UVI = document.createElement("li");
@@ -136,7 +136,7 @@ function displayFiveDayWeather(WD){
 
         forecast_container.appendChild(CurrentDate);
 
-        WeatherIcon.src = 'http://openweathermap.org/img/wn/'+ WD[i].weather[0].icon + '.png';
+        WeatherIcon.src = 'https://openweathermap.org/img/wn/'+ WD[i].weather[0].icon + '.png';
         WeatherIcon.className = "ForeIcon";
         forecast_container.appendChild(WeatherIcon);
 
