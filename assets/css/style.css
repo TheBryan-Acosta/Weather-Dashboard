@@ -1,3 +1,4 @@
+/* styling for our weather dashboard bar*/
 .topbar {
   background: rgb(73, 109, 190);
   background: linear-gradient(
@@ -9,7 +10,7 @@
   justify-content: center;
   align-items: center;
 }
-
+/*formatting our text for colors and text decorations*/
 h1 {
   font-weight: bold;
   color: white;
@@ -31,7 +32,7 @@ h4 {
   font-weight: bold;
   text-align: center;
 }
-
+/*setting clean look for our buttons in our search area*/
 .searchbtn {
   border: solid black;
   background: rgb(109, 160, 227);
@@ -62,6 +63,7 @@ h4 {
 }
 
 .form-input {
+  border: solid black;
   padding-top: 5px;
   padding-bottom: 5px;
   box-shadow: 5px 5px rgb(0, 0, 0);
@@ -78,6 +80,7 @@ li {
   font-weight: bold;
 }
 
+/*styling for our 5 day forecast boxes*/
 .forebox {
   padding-left: 5px;
   padding-right: 5px;
@@ -93,6 +96,7 @@ p {
   color: white;
 }
 
+/*viewport adjusting for our icon and some p tags */
 @media screen and (max-width: 992px) {
   .ForeIcon {
     position: absolute;
@@ -116,6 +120,7 @@ p {
   }
 }
 
+/*current forecast div container styling*/
 .currfore {
   border-radius: 7px;
   box-shadow: 5px 5px rgb(0, 0, 0);
@@ -124,6 +129,7 @@ p {
   min-height: 50px;
 }
 
+/*styling for our uv index*/
 span {
   color: black;
   padding: 5px;
