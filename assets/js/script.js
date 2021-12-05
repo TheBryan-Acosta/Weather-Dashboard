@@ -30,7 +30,7 @@ function GetCurrentWeatherData(cityName,lat,lon){
 
 //get city long and lat from cityName call
 function GetLatLong(cityName){
-    var apiUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=1&appid=5a204b8bb4ef44421eed155c5a0fefac';
+    var apiUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=1&appid=5a204b8bb4ef44421eed155c5a0fefac';
 
     fetch(apiUrl).then(function(response) {
         if (response.ok){
