@@ -16,7 +16,7 @@ A mobile responsive weather app that displays the current weather, and its five 
 For the weather data, I used two server-side apis, one to get the longitude and latitude from a city,
 and another to use those values to get the weather information, using OpenWeatherMap Onecall & GeoLocation api.
 Mobile responsiveness and gid layout were thanks to bootstrap and media queries.
-Js libraries used were MomentJs for dates and times, and jquery.
+Js libraries used were MomentJs for dates and times, and jquery framework.
 
 ## **Examples**
 
