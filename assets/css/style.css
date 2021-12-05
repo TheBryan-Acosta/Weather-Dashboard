@@ -33,11 +33,13 @@ h4 {
 }
 
 .searchbtn {
+  border: solid black;
   background: rgb(109, 160, 227);
   color: white;
   margin-top: 10px;
   padding-top: 2px;
   padding-bottom: 2px;
+  box-shadow: 5px 5px rgb(0, 0, 0);
 }
 
 .searchbtn:hover {
@@ -46,10 +48,13 @@ h4 {
 }
 
 .pastbtn {
+  font-weight: bold;
+  border: solid black;
   background: rgb(183, 183, 183);
   margin-bottom: 10px;
   padding-top: 2px;
   padding-bottom: 2px;
+  box-shadow: 5px 5px rgb(0, 0, 0);
 }
 
 .pastbtn:hover {
@@ -59,6 +64,8 @@ h4 {
 .form-input {
   padding-top: 5px;
   padding-bottom: 5px;
+  box-shadow: 5px 5px rgb(0, 0, 0);
+  border-radius: 0.25rem;
 }
 
 ul {
@@ -67,10 +74,13 @@ ul {
 }
 
 li {
-  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
 }
 
 .forebox {
+  padding-left: 5px;
+  padding-right: 5px;
   min-height: 150px;
   background: rgb(56, 70, 89);
   box-shadow: 7px 5px;
@@ -83,9 +93,44 @@ p {
   color: white;
 }
 
+@media screen and (max-width: 992px) {
+  .ForeIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .forebox {
+    padding-left: 10px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .forebox h4,
   p {
+    padding-top: 10px;
     font-size: small;
   }
+
+  .ForeIcon {
+    float: right;
+  }
+}
+
+.currfore {
+  border-radius: 7px;
+  box-shadow: 5px 5px rgb(0, 0, 0);
+  margin-bottom: 10px;
+  background: rgb(187, 209, 243);
+  min-height: 50px;
+}
+
+span {
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+#prevSearch {
+  margin-bottom: 20px;
 }
