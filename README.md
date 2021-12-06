@@ -1,4 +1,4 @@
-# Work Day Scheduler
+# Weather Dashboard
 
 GitHub Link : https://github.com/TheBryan-Acosta/Weather-Dashboard
 GitPages Link : https://thebryan-acosta.github.io/Weather-Dashboard/
